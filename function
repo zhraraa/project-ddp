@@ -28,7 +28,7 @@ int benar = 0;
 
 benar += kuis ("Tahun berapa Indonesia merdeka?", "1900", "1800", "1945", "2000", 'C');
 benar += kuis ("Apa nama hama yang biasa terdapat pada rambut?", "kutu", "kumbang", "belalang", "katak", 'A');
-benar += kuis ("Siapa presiden ke-2 republik indonesia?", "moh. hatta", "Soeha'rto", "megawati", "kaesang", 'B');
+benar += kuis ("Siapa presiden ke-2 republik indonesia?", "moh. hatta", "Soeharto", "megawati", "kaesang", 'B');
 benar += kuis ("Negara pertama yang menerima kemerdekaan indonesia?", "austria", "inggris", "jepang", "mesir", 'D');
 benar += kuis ("Agama terbanyak yang di anut di indonesia adalah?", "islam", "katolik", "budha", "hindu", 'A');
 
