@@ -1,4 +1,24 @@
 #include <iostream>
 using namespace std;
 
-void 
+int kuis(string pertanyaan, string opsiA, string opsiB, string opsiC, string opsiD, char jawabanbenar){
+    char jawabanpengguna;
+    
+    cout << pertanyaan << endl;
+    cout << "A. " << opsiA << endl;
+    cout << "B. " << opsiB << endl;
+    cout << "C. " << opsiC << endl;
+    cout << "D. " << opsiD << endl;
+    
+    cout << "Pilih jawaban anda (A/B/C/D)" << endl;
+    cin >> jawabanpengguna;
+    
+    if toupper(jawabanpengguna) == toupper(jawabanbenar){
+        cout << "Jawaban anda benar" << endl;
+        return 1;
+    } else {
+        cout << "Jawaban anda salah, jawaban yang benar adalah " << jawabanbenar << endl;
+        return 0;
+    }
+    
+}
