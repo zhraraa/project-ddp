@@ -28,9 +28,9 @@ int benar = 0;
 
 benar += kuis ("Siapa penemu lampu pijar?", "Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Albert Einstein", 'B');
 benar += kuis ("Apa nama planet terbesar di tata surya?", "Bumi", "Mars", "Saturnus", "Jupiter", 'D');
-benar += kuis ("Siapa presiden ke-2 republik indonesia?", "Moh. Hatta", "Megawati", "Soeharto", "Kaesang", 'C');
-benar += kuis ("Negara pertama yang menerima kemerdekaan indonesia?", "Spanyol", "Inggris", "Jepang", "Mesir", 'D');
-benar += kuis ("Agama terbanyak yang di anut di indonesia adalah?", "Islam", "Katolik", "Budha", "Hindu", 'A');
+benar += kuis ("Siapa presiden ke-2 Republik Indonesia?", "Moh. Hatta", "Megawati", "Soeharto", "Kaesang", 'C');
+benar += kuis ("Negara pertama yang menerima kemerdekaan Indonesia?", "Spanyol", "Inggris", "Jepang", "Mesir", 'D');
+benar += kuis ("Agama terbanyak yang dianut di Indonesia adalah?", "Islam", "Katolik", "Budha", "Hindu", 'A');
 
 if (benar == 0){
     cout << "Yahh, jawaban kamu belum ada yang benar." << endl;
