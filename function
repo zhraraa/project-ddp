@@ -22,3 +22,8 @@ int kuis(string pertanyaan, string opsiA, string opsiB, string opsiC, string ops
     }
     
 }
+int main(){
+int skor = 0;
+int benar = 0;
+
+benar += kuis (
