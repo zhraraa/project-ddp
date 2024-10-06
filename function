@@ -38,5 +38,6 @@ if (benar == 0){
     cout << "Selamat! kamu menjawab x soal secara benar." << endl;
 }
 skor = benar * 20;
+cout << "Skor kamu adalah : " << skor;
     return 0;
 }
