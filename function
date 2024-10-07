@@ -26,8 +26,8 @@ int main(){
 int skor = 0;
 int benar = 0;
 
-benar += kuis ("Siapa penemu lampu pijar?", "Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Albert Einstein", 'B');
-benar += kuis ("Apa nama planet terbesar di tata surya?", "Bumi", "Mars", "Saturnus", "Jupiter", 'D');
+benar += kuis ("Siapa penemu lampu pijar?", "Alessandro Volta", "Thomas Edison", "Alexander Graham Bell", "Albert Einstein", 'B');
+benar += kuis ("Apa nama planet terbesar di tata surya?", "Bumi", "Pluto", "Saturnus", "Jupiter", 'D');
 benar += kuis ("Siapa presiden ke-2 Republik Indonesia?", "Moh. Hatta", "Megawati", "Soeharto", "Kaesang", 'C');
 benar += kuis ("Negara pertama yang menerima kemerdekaan Indonesia?", "Spanyol", "Inggris", "Jepang", "Mesir", 'D');
 benar += kuis ("Agama terbanyak yang dianut di Indonesia adalah?", "Islam", "Katolik", "Budha", "Hindu", 'A');
@@ -38,6 +38,6 @@ if (benar == 0){
     cout << "Selamat! kamu menjawab " << benar << " soal secara benar." << endl;
 }
 skor = benar * 20;
-cout << "Skor kamu adalah " << skor << " dari 100." << endl;
+cout << "Skor kamu adalah : " << skor << " dari 100." << endl;
     return 0;
 }
